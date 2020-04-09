@@ -1,0 +1,58 @@
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.final{
+
+  background: linear-gradient(to bottom , #FFFFFF, #8D8D8D);
+
+}
+
+
+.marking{
+
+ 		width:800px;
+ 	}
+
+
+
+  @media only screen and (max-width: 869px) {
+  /* For mobile phones: */
+ 	.marking{
+ 		background-image: url("images/img1.png");
+ 		height: 700px;
+ 		width: 700px;
+ 	}
+
+ 	.imagejudge{
+ 		width: 100%;
+ 	}
+
+ 	.timeline{
+ 	    width: 100px;
+ 	    height: auto;
+ 	}
+  }
+
+ @media only screen and (max-width: 650px) {
+  /* For mobile phones: */
+ 	.marking{
+ 		background-image: url("images/img1.png");
+ 		height: 300px;
+ 		width: 460px;
+ 	}
+
+ 	.imagejudge{
+		padding-right: 35px;
+ 	}
+  }
+.container1 {
+  position: relative;
+  width: 50%;
+}
