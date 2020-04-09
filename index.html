@@ -28,6 +28,13 @@
       -webkit-box-shadow: 0 0 10px #538cc6;
       box-shadow: 10px 10px 10px #538cc6;
     }
+    .imgBox1:hover
+    {
+    	opacity: 0.8;
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #C0C0C0;
+      box-shadow: 10px 10px 10px #C0C0C0;
+    }
     .heading:hover {
 	  font-weight: bold;
 	  color: #2e2eb8;
@@ -62,7 +69,7 @@
 					    </div>
                         <div class="navigation mobile-menu">
                             <div class="main-menu">
-                                <nav>
+                                <nav class="nav" style="color: white; font-weight: bolder;">
                                     <ul>
                                         <li><a class="active" href="./index.html">Home</a></li>
                                         <li><a href="./speakers.html">About</a></li>
@@ -74,8 +81,10 @@
                             </div>
                             <div class="top-social">
                                 <a href="https://www.facebook.com/upesopen/"><i class="fa fa-facebook"></i></a>
+                                 <a href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
                                 <a href="https://twitter.com/UpesOpen"><i class="fa fa-twitter"></i></a>
                                 <a href="#" class="search-btn search-trigger"><i class="fa fa-search"></i></a>
+
                             </div>
                         </div>
                         <div id="mobile-menu-wrap"></div>
@@ -341,53 +350,99 @@
     <!-- Special Guest End -->
 
 
+<!-- Speaker Section Begin -->
+    <section class="speaker-section spad speaker-all">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2 class="heading">Our Valuable Partners</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">            	
+                <div class="col-lg-3 col-md-6">
+                    <div class="speakers-about">
+                        <div class="speaker-img imgBox1">
+                            <img src="img/blog/partner/ibm.png" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="speakers-about">
+                        <div class="speaker-img imgBox1">
+                            <img src="img/blog/partner/linuxF.png" alt="">
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="speakers-about">
+                        <div class="speaker-img imgBox1">
+                            <img src="img/blog/partner/stpi.png" alt="">
+                        </div>
+                       
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="speakers-about">
+                        <div class="speaker-img imgBox1">
+                            <img src="img/blog/partner/techmint.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Speaker Section End -->
+
+
+
     <!-- Footer Begin -->
-    <footer class="footer-section">
+    <footer class="footer-section" style="background-color: #DA70D6;">
         <div class="container">
             <div class="row pb-70">
-                <div class="col-lg-3 col-md-6">
-                    <div class="company-widget">
-                        <h4>Company</h4>
-                        <ul>
-                            <li>Careers</li>
-                            <li>Volunteers</li>
-                            <li>Sustainability</li>
-                        </ul>
+                <div class="col-lg-4 col-md-6">
+                    <div class="company-widget" >
+                        <h4>OPEN COMMUNITY</h4>
+                        <div style="color: white;">
+                        	<ul class="list-unstyled">
+		                        <li><a href="#" class="btn btn-social-icon" style="font-weight: bolder; font-size: 25px;">Home</a></li>
+		                        <li><a href="./aboutus.html"  class="btn btn-social-icon" style="font-weight: bolder; font-size: 25px;">About</a></li>
+		                        <li><a href="#"  class="btn btn-social-icon" style="font-weight: bolder; font-size: 25px;">Menu</a></li>
+		                        <li><a href="./contactus.html"  class="btn btn-social-icon" style="font-weight: bolder; font-size: 25px;">Contact</a></li>
+                    		</ul>	
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="event-widget">
-                        <h4>Our Events</h4>
-                        <ul>
-                            <li>Web Summit - Rome</li>
-                            <li>Collision - Madrid</li>
-                            <li>RISE - Hong Kong</li>
-                            <li>MoneyConf - Bucharest</li>
-                        </ul>
+                        <h4>OUR ADDRESS</h4>
+                    <address>
+                      Main Office<br>SCS UPES, Dehradun<br><br>
+                      <i class="fa fa-phone fa-lg"></i>: +91 9758835171<br> +91 7310251657<br>
+                      <i class="fa fa-fax fa-lg"></i>: +91 9758835171<br> +91 7310251657<br>
+                      <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:open@ddn.upes.ac.in">open@ddn.upes.ac.in</a>
+                   </address>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="links-widget">
-                        <h4>Usefull Links</h4>
-                        <ul>
-                            <li>Pre-register for 2019</li>
-                            <li>News</li>
-                            <li>Support centre</li>
-                            <li>Accessibility policy</li>
-                        </ul>
+                        <div class="text-center">
+                        	<h4>CONTACT US</h4>
+                        <a class="btn btn-social-icon btn-facebook"  href="https://www.facebook.com/upesopen/"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter"  href="http://twitter.com/@UpesOpen"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        
+                        <a class="btn btn-social-icon"  href="mailto:open@ddn.upes.ac.in"><i class="fa fa-envelope-o fa-lg"></i></a>
+                </div> 
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="contact-widget">
-                        <h4>Contact</h4>
-                        <ul>
-                            <li><i class="flaticon-placeholder-3"></i> <span>4127 Raoul Wallenber4127 Raoul Wallen berg
-                                    Place</span></li>
-                            <li><img src="img/phone.png" alt=""> <span>203-808-8613</span></li>
-                            <li><img src="img/envelop.png" alt=""> <span>hello@youremail.com</span></li>
-                        </ul>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div class="copyright-area">
